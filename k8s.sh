@@ -1,12 +1,5 @@
 
-启动后先吧keepalived启动  
 
-  mkdir  /run/haproxy
-  chown haproxy:haproxy -P /run/haproxy/
-
-  systemctl restart haproxy
-
-  systemclt restart keepalived
 
 开篇先谈问题记录，主要原因是参照github上的教程原文去部署自己的实验环境的效果会更好，大家了解下我遇到过的问题即可，提供一个参考。Github上的教程原文内容详实、生动，是以部署操作的说明为主，原理性的知识需要自己另行学习掌握。原文中也曾出现和纠正过一些细微错误，尽信书不如无书，遇到问题后不妨查一下其他参考资料中是怎么说的。本文也只是我的一份过程笔记，供自己后续工作参考。
 
